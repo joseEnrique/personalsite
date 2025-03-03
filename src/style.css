@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #4a5568;
+}
+
+.section-title {
+  @apply text-4xl font-bold mb-8 text-center;
+  color: #2d3748;
+}
+
+.card {
+  @apply rounded-xl shadow-md p-6 transition-all duration-300 hover:transform hover:scale-105;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-color: #90cdf4;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #3182ce 0%, #2b6cb0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tech-border {
+  border-color: #3182ce;
+}
+
+.tech-accent {
+  color: #3182ce;
+}

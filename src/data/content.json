@@ -1,0 +1,145 @@
+{
+  "personalInfo": {
+    "name": "Quique Ruiz Navarro",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQGFjbuR1kFcew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1612948501662?e=1746662400&v=beta&t=ktMF2mH5AxnIUexwPBmbYgnW-0JRnmflgDb3_sX7bKM",
+    "email": "joseenriqueruiznavarro@gmail.com",
+    "introduction": "I am a passionate DevOps/SRE with extensive experience in creating, maintaining, and monitoring cloud (AWS, Azure) and on-premise infrastructures. I am driven by automation and continuous improvement, with a strong focus on high availability, security, and scalability. I am currently pursuing a PhD in Computer Engineering, focusing on Machine Learning for data streams.",
+    "skills": [
+      "Terraform",
+      "Ansible",
+      "Kubernetes",
+      "Helm",
+      "AWS: EKS, EC2, VPC, RDS, ECS, S3, ECR, DocDB, SQS, SNS, Lambdas, VPN, PrivateLinks, CloudFormation, Route53",
+      "Azure: AKS, VMs, VNET, PrivateLinks, Blob Storage, VPN",
+      "GCP: GKE,  Cloud Storage, VPC, VPN",
+      "Languages: Python, Go and Bash",
+      "CI/CD: ArgoCD, GitHub Actions, Azure DevOps"
+    ],
+    "social": {
+      "github": "https://github.com/joseEnrique",
+      "linkedin": "https://www.linkedin.com/in/joseenriqueruiz/"
+    }
+  },
+  "projects": [
+    {
+      "title": "Trivy API",
+      "description": "A RESTful API built with Go for scanning Docker images to identify potential vulnerabilities and ensure secure deployments.",
+      "technologies": ["GoLang", "Trivy", "RESTFul API", "Docker"],
+      "github": "https://github.com/joseEnrique/trivy-api",
+      "image": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/255e20ee48c85f3b4701446e2513c100f22129f3.png"
+    },
+    {
+      "title": "MockStreamData",
+      "description": "MockStreamData is a Python tool designed to stress-test online machine learning models by continuously streaming data. It simulates real-time data flows by generating batches from popular datasets (such as any of River's dataset) so you can evaluate your models' performance and capacity under load.",
+      "technologies": ["Python", "Data", "Kafka"],
+      "github": "https://github.com/joseEnrique/MockStreamData",
+      "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+    },
+    {
+      "title": "Trivy to Google Sheets",
+      "description": "trivy-to-google-sheets is a Python package that automates running Trivy scans on container images and exporting the results to a Google Sheet. It also automatically shares the generated sheet with specified emails and can be used as a command-line tool.",
+      "technologies": ["Python", "Security", "Trivy", "Google Sheets"],
+      "github": "https://github.com/joseEnrique/trivy-to-google-sheets",
+      "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Kafka on Kubernetes with Strimzi",
+      "excerpt": "This tutorial demonstrates how Strimzi simplifies the deployment and administration of Apache Kafka on Kubernetes, covering everything from setup to monitoring and security. Learn step by step to fully harness Kafka’s capabilities in dynamic environments.",
+      "date": "January 13, 2025",
+      "url": "https://medium.com/@joseenriqueruiznavarro/making-kafka-on-kubernetes-easy-with-strimzi-7e939f37ed43"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior SRE (Full Remote)",
+      "company": "Quix, London",
+      "period": "July 2021 - Present",
+      "achievements": [
+        "Designed CI/CD pipelines with Azure DevOps and GitHub Actions for monitoring and building applications",
+        "Created and maintained pipelines in Azure DevOps, managing AKS, EKS and GKE clusters",
+        "Implemented Helm charts for the deployment of applications on Kubernetes",
+        "Deployed infrastructures in AWS and Azure following best practices (AWS Well-Architected Framework)",
+        "Provided support and review of information system security policies to comply with ISO 27001",
+        "Developed an application packaging product using Ansible and Helm",
+        "Implemented ArgoCD to scale deployments to multiple clusters in less time",
+        "Developed and maintained scripts in Python, Bash, and Golang",
+        "Implemented security scanners in pipelines for early vulnerability detection"
+      ]
+    },
+    {
+      "title": "DevOps/SRE",
+      "company": "PodGroup (now Giesecke+Devrient), Seville",
+      "period": "July 2017 - April 2021",
+      "achievements": [
+        "Designed CI/CD processes with Jenkins and Bitbucket pipelines for building and monitoring applications",
+        "Created secure containers following best practices for production environments",
+        "Managed large-scale AWS deployments using EKS, EC2, VPC, RDS, ECS, S3, ECR, DocDB, SQS, SNS, and Lambdas",
+        "Performed load tests to ensure high availability",
+        "Built infrastructure as code using Terraform with S3 as the backend for state management",
+        "Implemented Kubernetes in AWS using both EKS and EC2 instances, managing around 20 microservices in production",
+        "Developed and maintained scripts in Python, Bash, Node.js, and Golang",
+        "Automated large database operations using Ansible",
+        "Actively participated in Agile methodologies"
+      ]
+    },
+    {
+      "title": "Assistant technician",
+      "company": "University of Seville",
+      "period": "July 2017 - April 2021",
+      "achievements": [
+        "Developed a tool to measure the elasticity of an application in certain environments.",
+        "Design a rating quota of APIs according to an SLA.",
+        "Study of performance of different database, such as Mongo and Elasticsearch."
+      ]
+    }
+    ,
+    {
+      "title": "SysAdmin ",
+      "company": "Enreda",
+      "period": "October 2015 - October 2016",
+      "achievements": [
+        "Administration and configuration of webpages such as Drupal, Wordpress, Django projects or Redmine over Apache or Nginx.",
+        "Administration and configuration of Load balancers in HAproxy or Nginx.",
+        "Responsible for clusters such as Mysql.",
+        "Monitor the status of the webpage using some tools as Nagios, Munin or Zabbix.",
+        "Administrator of some servers with services as Bind9, OpenLDAP or Bacula .",
+        "Automate task with scripts with Bash or Python."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD Student - Online Machine Learning in Data Streams",
+      "institution": "Computer Engineering Faculty, University of Seville",
+      "period": "2024 - Present",
+      "description": "Research focused on machine learning for data streams, emphasizing continuous optimization and adaptability of models in dynamic environments."
+    },
+    {
+      "degree": "Data Software engineering Master Degree",
+      "institution": "Computer Engineering Faculty, University of Seville.",
+      "period": "2019 - 2020",
+      "description": "Master's degree focused on data engineering, including data processing, storage, and analysis."
+    },
+    {
+      "degree": "CyberSecurity Master Degree",
+      "institution": "Computer Engineering Faculty, University of Seville.",
+      "period": "2017 - 2018",
+      "description": "Master's degree focused on identifying, preventing, and mitigating cyber threats, emphasizing practical training in secure architecture design, data protection, and advanced risk management strategies."
+    },
+    {
+      "degree": "Degree in computer engineering - Information technologies",
+      "institution": "Computer Engineering Faculty, University of Seville.",
+      "period": "2013 - 2017",
+      "description": "Bachelor's degree focused on computer engineering, emphasizing software development, databases, and computer networks."
+      }
+      ,
+    {
+      "degree": "System and Network Administrator",
+      "institution": "IES Gonzalo Nazareno.",
+      "period": "2011 - 2013",
+      "description": "Course focused on system and network administration, emphasizing network management, security, and system maintenance."
+      }
+  ]
+}
