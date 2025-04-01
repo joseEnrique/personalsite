@@ -41,6 +41,13 @@
       "technologies": ["Python", "Security", "Trivy", "Google Sheets"],
       "github": "https://github.com/joseEnrique/trivy-to-google-sheets",
       "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+    },
+    {
+      "title": "pvcusage",
+      "description": "A command-line tool to monitor Persistent Volume Claim (PVC) usage in Kubernetes clusters.",
+      "technologies": ["GoLang", "Observability", "Kubernetes"],
+      "github": "https://github.com/joseEnrique/pvcusage",
+      "image": "https://storage.googleapis.com/gopherizeme.appspot.com/gophers/255e20ee48c85f3b4701446e2513c100f22129f3.png"
     }
   ],
   "blogPosts": [
@@ -55,7 +62,7 @@
     {
       "title": "Senior SRE (Full Remote)",
       "company": "Quix, London",
-      "period": "July 2021 - Present",
+      "period": "April 2021 - Present",
       "achievements": [
         "Designed CI/CD pipelines with Azure DevOps and GitHub Actions for monitoring and building applications",
         "Created and maintained pipelines in Azure DevOps, managing AKS, EKS and GKE clusters",
@@ -87,7 +94,7 @@
     {
       "title": "Assistant technician",
       "company": "University of Seville",
-      "period": "July 2017 - April 2021",
+      "period": "November 2015 - June 2017",
       "achievements": [
         "Developed a tool to measure the elasticity of an application in certain environments.",
         "Design a rating quota of APIs according to an SLA.",
